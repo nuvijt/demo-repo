@@ -10,7 +10,7 @@ fun main() {
     println("Hi $username")
 
     do {
-        println("Wähle (Schere, Stein, Papier): ")
+        println("Wählen Sie (Schere, Stein, Papier): ")
         val userChoice = readLine()!!.trim()
 
         if (userChoice !in options) {
@@ -29,7 +29,7 @@ fun main() {
             else -> println("Der Computer gewinnt!")
         }
 
-        println("Möchtest du nochmal spielen? (j/n): ")
+        println("Möchten Sie nochmal spielen? (j/n): ")
         playAgain = readLine()!!.trim()
 
     } while (playAgain.equals("j", ignoreCase = true))
