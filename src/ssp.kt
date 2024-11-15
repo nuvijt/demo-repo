@@ -2,7 +2,7 @@ import kotlin.random.Random
 
 fun main() {
     val options = arrayOf("Schere", "Stein", "Papier")
-    var playAgain: String
+    var playAgain = "j"
 
     println("Willkommen beim Schere-Stein-Papier-Spiel!")
 
