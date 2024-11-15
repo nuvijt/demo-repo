@@ -5,6 +5,9 @@ fun main() {
     var playAgain = "j"
 
     println("Willkommen beim Schere-Stein-Papier-Spiel!")
+    println("Wie heisst du?")
+    var username = readLine()
+    println("Hi $username")
 
     do {
         println("Wähle (Schere, Stein, Papier): ")
