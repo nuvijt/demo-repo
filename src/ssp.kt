@@ -5,7 +5,7 @@ fun main() {
     var playAgain = "j"
 
     println("Willkommen beim Schere-Stein-Papier-Spiel!")
-    println("Wie heisst du?")
+    println("Wie heissen Sie?")
     var username = readLine()
     println("Hi $username")
 
