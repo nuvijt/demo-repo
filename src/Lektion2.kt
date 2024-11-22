@@ -12,4 +12,5 @@ fun main() {
 }
 fun timeout() {
     timeout()
+    print("nothing to see")
 }
